@@ -38,6 +38,7 @@ public class twoSum {
     public static void main(String[] args){
         int[] a = {1,2,3,-1,-2,5,9,-7,0,18,-4,-3};
         twoSum t = new twoSum();
-        t.threeSum(a);
+        System.out.println(t.threeSum(a));
+
     }
 }
